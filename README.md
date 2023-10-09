@@ -2,37 +2,7 @@
 
 [![Terraform actions status](https://github.com/techservicesillinois/terraform-aws-sns/workflows/terraform/badge.svg)](https://github.com/techservicesillinois/terraform-aws-sns/actions)
 
-# TODO ADD DESCRIPTION HERE
+Provides submodules for managing SNS topics and subscriptions.
 
-Example Usage
------------------
-
-# TODO ADD EXAMPLES HERE
-
-Argument Reference
------------------
-
-The following arguments are supported:
-
-* `REQUIRED_ARGUMENT` - (Required) DESCRIPTION.
-
-* `OPTIONAL_ARGUMENT` - (Optional) DESCRIPTION.
-
-* `OPTIONAL_FOO_BLOCK_ARGUMENT` - (Optional) A [FOO](#FOO) block. FOO blocks are documented below.
-
-`FOO`
------------------
-
-A `FOO` block supports the following:
-
-* `REQUIRED_ARGUMENT` - (Required) DESCRIPTION.
-
-* `OPTIONAL_ARGUMENT` - (Optional) DESCRIPTION.
-
-Attributes Reference
---------------------
-
-The following attributes are exported:
-
-* `ATTRIBUTES` – DESCRIPTION.
--->
+* [subscription](modules/subscription/README.md)
+* [topic](modules/topic/README.md)
